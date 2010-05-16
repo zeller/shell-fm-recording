@@ -56,7 +56,6 @@ popd
 
 # get a new artist using some statistics
 artist=`Rscript "${R_SCRIPT}" < ${TEMP_FILE}`
-artist="marina and the diamonds"
 
 # write out artist to a log file
 echo "$artist" | cat >> $LOG_FILE
